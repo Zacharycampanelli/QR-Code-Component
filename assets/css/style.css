@@ -9,8 +9,11 @@
 
 body {
   font-family: 'Outfit', sans-serif;
-  width: 375px;
   background-color: var(--lightgray);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 h1 {
@@ -28,11 +31,8 @@ p {
 
 .card {
   border-radius: 20px;
-  position: absolute;
   width: 320px;
-  height: 497px;
-  top: 85px;
-  left: 28px;
+  height: 497px;  
   box-shadow: 0 25px 25px rgba(0, 0, 0, 0.125);
 }
 
@@ -61,13 +61,12 @@ p {
   color: hsl(228, 45%, 44%);
 }
 
-@media only screen and (min-width: 1440px) { 
+/* @media only screen and (min-width: 1440px) { 
   body {
     width: 1440px;
   }
 
   .card {
-    top: 152px;
-    left: 560px;
+    
   }
-}
+} */
